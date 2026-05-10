@@ -1,0 +1,23 @@
+# Nuxt
+.nuxt/
+dist/
+.output/
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+.thumbs.db
