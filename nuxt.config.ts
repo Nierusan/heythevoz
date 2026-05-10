@@ -1,4 +1,10 @@
 export default defineNuxtConfig({
+  ssr: true,
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  },
   app: {
     head: {
       title: 'Digital Marketing Services Switzerland | heythevoz',
